@@ -1,0 +1,23 @@
+{
+  "name": "stremio-addon-ipfs",
+  "version": "0.0.1",
+  "description": "Dependencies for stremio-addon-sdk IPFS features",
+  "main": "index.js",
+  "author": "Smart Code OOD",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^3.0.2",
+    "bufferutil": "^4.0.1",
+    "hdkey": "^1.1.1",
+    "ipfs-http-client": "^35.1.0",
+    "lodash.throttle": "^4.1.1",
+    "p-queue": "^6.1.1",
+    "stremio-addon-linter": "^1.7.0",
+    "tape-async": "^2.3.0",
+    "turbo-json-parse": "github:Ivshti/turbo-json-parse#468fce24d394b1535ebe91e5817a4a0d0a585ed5",
+    "utf-8-validate": "^5.0.2",
+    "ws": "^7.1.2",
+    "ws-reconnect": "^1.0.6",
+    "yargs": "^14.0.0"
+  }
+}
